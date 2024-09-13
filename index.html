@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite App</title>
+</head>
+
+<body>
+  <div id="app">
+    <h3>Ejercicio 1: Lista con elementos</h3>
+
+    <ul id="lista">
+      <li>Elemento 1</li>
+      <li>Elemento 2</li>
+      <li>Elemento 3</li>
+      <li>Elemento 4</li>
+    </ul>
+
+    <h3>Ejercicio 2: Campo de texto y botones</h3>
+
+    <input type="text" id="campoTexto" placeholder="Escribe algo...">
+    <br><br>
+    <button id="btnDeshabilitar">Deshabilitar Campo</button>
+    <button id="btnHabilitar" disabled>Habilitar Campo</button>
+
+    <h2>Introduccion al DOM</h2>
+    <h3>Ejercicio 1</h3>
+    <div id="p-container">
+      <p>Este es el primer párrafo</p>
+      <p>Este es el segundo párrafo</p>
+      <p>Este es el tercer párrafo</p>
+    </div>
+    <button id="color-button">Cambiar a color azul</button>
+    <h3>Ejercicio 2: Formulario con alerta</h3>
+    <div>
+      <label for="text-input">Ingresa un texto</label>
+      <input type="text" id="text-input">
+      <button id="alert-button">Mostrar alerta</button>
+    </div>
+    <h2>Local Storage</h2>
+    <h3>Ejercicio 1: Formulario con Local Storage</h3>
+    <div>
+      <form id="email-form">
+        <label for="email-input">Ingresa tu correo electrónico</label>
+        <input type="email" id="email-input" required>
+        <button type="submit">Guardar</button>
+      </form>
+      <div id="email-display"></div>
+      <button id="delete-button" style="display: none;">Eliminar correo electrónico</button>
+    </div>
+
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
